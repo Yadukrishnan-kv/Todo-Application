@@ -1,0 +1,349 @@
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+  .main
+  {
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+   
+    background-color: rgba(26, 165, 96, 0.801);
+  }
+  h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+    padding-right: 100px;
+    text-align: center;
+  }
+  .heading
+  {
+   color: #092635;
+  
+  }
+  .main form
+  {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+  .main input
+  {
+    background-color: rgba(255, 255, 255, 0.097);
+    border: none;
+    border-radius: 6px;
+    padding: 20px;
+    width: 400px;
+    height: 10px;
+    font-size: 17px;
+    color: white;
+  }
+  .main button
+  {
+    
+    border: none;
+    border-radius: 7px;
+    margin-left: 20px;
+    padding: 10px;
+    
+    background-color: #092635;
+  }
+  @media only screen and (max-width: 960px) {
+    .main input {
+      padding: 15px;
+      width: 350px;
+    }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .main input {
+      padding: 15px;
+      width: 300px;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .main input {
+      padding: 15px;
+      width: 210px;
+      height: 25px;
+    }
+    
+  }
+  
+#addimg:hover 
+{
+ cursor: pointer;
+}
+#addimg:disabled {
+  opacity: 0.5; 
+  cursor: not-allowed; 
+}
+
+.navholder1 {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+  
+}
+.navleft,.navright
+{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.navleft a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.615);
+    padding: 15px 20px;
+    margin: 0px 10px;
+    
+}
+.navleft a:hover
+{
+    color: white;
+   
+   
+}
+.navleft a:visited
+{
+    color: white;
+   
+}
+.bin:hover{
+    color: white;
+    
+  }
+
+
+@media only screen and (max-width:  720px) {
+
+    .navholder1 {
+      padding: 0 20px; 
+    }
+    
+    
+    }
+
+
+    
+    @media only screen and (max-width: 640px){
+    .navleft a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.615);
+      padding: 10px 10px;
+      margin: 0px 5px;
+    }
+    .bin{
+        height: 25px;
+      }
+    }
+
+
+   
+
+
+    .tileGrid {
+      width: 100%;
+      height: 180px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px;
+      gap: 35px;
+      list-style-type: none;
+      margin-left: 10px;
+}
+
+    .tile {
+      display: flex;
+      flex-direction: row;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.823);
+      opacity: 0;
+      animation: fadeIn 0.5s forwards;
+     
+    }
+    .leftstatusBar {
+      width: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px 0px 0px 10px;
+      padding: 5px;
+    }
+    .leftstatusBar p {
+      color: rgba(240, 248, 255, 0.403);
+      writing-mode: vertical-rl;
+    
+      white-space: nowrap;
+      margin-left: 5px;
+    }
+    .mainCont {
+      padding: 15px;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      color: rgba(255, 255, 255, 0.856);
+    }
+    .timeDate
+    {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px 8cm 8px 8cm;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.823);
+      padding: 3px;
+      display: flex;
+      
+    }
+    .timeDate p
+    {
+      color: rgba(240, 248, 255, 0.403);
+      white-space: nowrap;
+      margin-left: 5px;
+    }
+
+    .subdiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+    li {
+      text-align: left;
+      padding-top: 20px;
+   
+    }
+    .mainCont button {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+
+    }
+    .options {
+      display: flex;
+      justify-content: space-between;
+    }
+    .leftoption {
+      display: flex;
+      gap: 20px;
+    }
+
+   
+    .loader {
+      animation: loader 0.5s linear forwards;
+    }
+
+    @media only screen and (max-width: 960px) {
+      .tileGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 30px;
+     
+      }
+    }
+    @media only screen and (max-width: 720px) {
+      .tileGrid {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 30px;
+        width: 300px;
+      }
+    }
+    @media only screen and (max-width: 640px) {
+      .tileGrid {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 30px;
+        width: 300px;
+      }
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .tile:nth-child(1) {
+      animation-delay: 0.15s;
+    }
+    
+    .tile:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .tile:nth-child(3) {
+      animation-delay: 0.25s;
+    }
+    .tile:nth-child(4) {
+      animation-delay: 0.3s;
+    }
+    #MADBtn:hover {
+      border-radius: 50%;
+      border: 1px rgb(82, 227, 82) solid;
+    }
+    #DLTBtn:hover {
+      border-radius: 50%;
+      border: 2px rgb(168, 89, 89) solid;
+    }
+    #EDITBtn:hover {
+      border-bottom: 2px rgb(31, 140, 224) solid;
+    }
+    @keyframes loader {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+
+
+    .editpage {
+      width: 100%;
+      height: 100vh;
+      background-color:rgba(26, 165, 96, 0.801);
+      display: flex;
+      justify-content: center;
+     
+    }
+    .edittile {
+      width: 500px;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      border-radius: 10px;
+      background-color: #047d53;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.453);
+    }
+    .subdiv input
+    {
+      width: 350px;
+      height: 50px;
+      background-color: rgba(255, 255, 255, 0.097);
+      border: none;
+      border-radius: 6px;
+      font-size: 17px;
+      color: white;
+      padding: 5px;
+      margin-top: 50px;
+    }
+    
