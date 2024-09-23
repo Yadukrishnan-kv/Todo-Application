@@ -10,25 +10,7 @@
 <h3>Features and Description</h3>
 <p>The Todo-App's features include:</p>
 <p>
-<h4>Adding Tasks</h4>
 
-![Add] ![Image description](https://github.com/yourusername/yourrepositoryname/blob/main/path/to/your/image.png)
+![Project Screenshot](https://github.com/username/repo/blob/main/images/screenshot.png)
 
-</p>
-<p>
-<h4>Editing Tasks</h4>
-
-![Edit](https://user-images.githubusercontent.com/25654606/120463766-dc75b600-c3b9-11eb-8c6b-aa1d2f8fe0ca.gif)
-</p>
-<p>
-<h4>Marking Tasks as completed</h4>
-
-![Completed](https://user-images.githubusercontent.com/25654606/120463779-e0093d00-c3b9-11eb-97bc-c1d2c3fac7f7.gif)
-</p>
-<p>
-
-<h4>User Friendly UI</h4>
-
-![UI](https://user-images.githubusercontent.com/25654606/120463809-e7c8e180-c3b9-11eb-9afe-d2ff3ac69ee3.png)
-</p>
  
