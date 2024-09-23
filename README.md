@@ -12,7 +12,7 @@
 <p>
 <h4>Adding Tasks</h4>
 
-![Add](https://user-images.githubusercontent.com/25654606/120463734-d5e73e80-c3b9-11eb-9f71-4c32a14cfe3f.gif)
+![Add]<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
 </p>
 <p>
 <h4>Editing Tasks</h4>
