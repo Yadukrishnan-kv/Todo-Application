@@ -12,7 +12,8 @@
 <p>
 <h4>Adding Tasks</h4>
 
-![Add]<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+![Add] ![Image description](https://github.com/yourusername/yourrepositoryname/blob/main/path/to/your/image.png)
+
 </p>
 <p>
 <h4>Editing Tasks</h4>
