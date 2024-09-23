@@ -1,8 +1,8 @@
 <h1 align="center">Todo App</h1>
 
 
-<p>The Todo-App is a task managing Web-Application to help its users to stay organized for their day to day activities.</p> 
-<p>  The app enables users to seamlessly add, delete, and edit tasks, ensuring a smooth and intuitive user experience</p>
+<p>The Todo-App is a task managing Web-Application to help its users to stay organized for their day to day activities. The app enables users to seamlessly add, delete, and edit tasks, ensuring a smooth and intuitive user experience</p> 
+
 <h3>Technologies Used</h3>
 <p> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
@@ -13,26 +13,26 @@
 
 <h4>Adding Tasks</h4>
 
-![Add]![Project Screenshot](https://github.com/username/repo/blob/main/images/screenshot.png)
-
-</p>
-<p>
-<h4>Editing Tasks</h4>
-
-![Edit]![Project Screenshot](https://github.com/username/repo/blob/main/images/screenshot.png)
+ ![Project Screenshot](https://github.com/Yadukrishnan-kv/Todo-Application/blob/main/photo_2024-09-22_22-01-01.jpg)
 
 </p>
 <p>
 <h4>Marking Tasks as completed</h4>
 
-![Completed]![Project Screenshot](https://github.com/username/repo/blob/main/images/screenshot.png)
+![Project Screenshot](https://github.com/Yadukrishnan-kv/Todo-Application/blob/main/photo_2024-09-22_22-01-12.jpg)
+
+</p>
+<p>
+<h4>Pending Tasks</h4>
+
+![Project Screenshot](https://github.com/Yadukrishnan-kv/Todo-Application/blob/main/photo_2024-09-22_22-01-24.jpg)
 
 </p>
 <p>
 
-<h4>User Friendly UI</h4>
+<h4>Editing Tasks</h4>
 
-![UI]![Project Screenshot](https://github.com/username/repo/blob/main/images/screenshot.png)
+![Project Screenshot](https://github.com/Yadukrishnan-kv/Todo-Application/blob/main/photo_2024-09-22_22-01-28.jpg)
 
 </p>
  
